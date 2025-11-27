@@ -18,7 +18,7 @@ export default function Experience(){
                     <div key={exp.id} className="timeline-item">
                         
                         <div className="timeline-left">
-                            <div className={"timeline-icon-wrapper ${index === 0 ? 'active' : ''}"}>
+                            <div className={"timeline-icon-wrapper " + (index === 0 ? 'active' : '')}>
                                 <img src={exp.image_url} alt="logo" />
                             </div>
                             
@@ -32,7 +32,7 @@ export default function Experience(){
                             <div className="exp-header">
                                 <h3 className="exp-role">{exp.title}</h3>
                                 
-                                <span className={"exp-type-badge ${exp.experience_type}"}>
+                                <span className={"exp-type-badge " + exp.experience_type}>
                                     {exp.experience_type}
                                 </span>
                             </div>
