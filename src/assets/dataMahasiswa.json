@@ -1,13 +1,13 @@
 {
   "id": 12,
-  "slug": "aulia-pratama-2103010023",
+  "slug": "daffa-atalla-l200230157",
 
   "profile": {
-    "full_name": "Aulia Pratama",
-    "nim": "2103010023",
+    "full_name": "Daffa Atalla Bintang Saputra",
+    "nim": "L200230157",
     "prodi": "Teknik Informatika",
-    "angkatan": "2021",
-    "photo_url": "https://cdn.talenta-ums.ac.id/photos/aulia.jpg",
+    "angkatan": "2023",
+    "photo_link": "./src/assets/img/catto.webp",
     "headline": "Fullstack Web Developer | React & Django Enthusiast",
     "short_bio": "Mahasiswa UMS dengan minat pada pengembangan web fullstack.",
     "location": "Surakarta, Jawa Tengah",
