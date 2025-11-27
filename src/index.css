@@ -224,3 +224,173 @@ div.info-mhs ul{
     min-width: 35px;   
     flex-shrink: 0;
 }
+
+/* Container Utama */
+.experience-card {
+    display: flex;
+    background: #f4f4f5;
+    box-shadow: 0 18px 35px rgba(0, 0, 0, 0.18);
+    border-radius: 22px;
+    width: 720px;
+    min-width: 720px;
+    margin: 40px auto;
+    padding: 16px 20px;
+    font-weight: 600;
+    flex-direction: column;
+}
+
+.experience-card > h2 {
+    margin: 2px 0 20px;
+}
+
+/* Layout Timeline */
+.timeline-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* Gap dihandle padding-bottom item agar garis rapi */
+}
+
+.timeline-item {
+    display: flex;
+    gap: 20px;
+    position: relative;
+    padding-bottom: 30px; /* Jarak antar item */
+}
+
+/* Bagian Kiri (Icon & Garis) */
+.timeline-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 50px;
+}
+
+.timeline-icon-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2; /* Supaya icon di atas garis */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden; /* Supaya gambar bulat */
+}
+
+.timeline-icon-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* atau contain tergantung logo */
+}
+
+/* Garis Timeline */
+.timeline-line {
+    flex-grow: 1;
+    width: 2px;
+    background: #e5e7eb;
+    margin-top: -5px; /* Sedikit naik supaya nyambung icon */
+    margin-bottom: -35px; /* Turun melewati padding item bawah */
+}
+
+/* Active State (Item Pertama) - Opsional kalau mau icon pertama beda warna */
+.timeline-icon-wrapper.active {
+    border: 2px solid #00a2ff;
+}
+
+/* Bagian Kanan (Content) */
+.timeline-content {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    border-radius: 12px;
+    padding: 16px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.exp-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.exp-role {
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 0;
+    color: #333;
+}
+
+.exp-company {
+    font-size: 0.9rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.exp-meta {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 2px;
+}
+
+.status-current {
+    border: 1px solid #00a2ff;
+    color: #00a2ff;
+    border-radius: 99px;
+    padding: 1px 8px;
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.exp-desc {
+    font-size: 0.85rem;
+    color: #444;
+    font-weight: 500;
+    line-height: 1.4;
+    margin: 8px 0;
+}
+
+/* Tags (Technologies) */
+.exp-tags-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.exp-tag {
+    background: #f3f4f6;
+    color: #374151;
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+/* Badge Style (Pojok Kanan Atas) */
+.exp-type-badge {
+    font-size: 0.75rem;
+    padding: 4px 10px;
+    border-radius: 99px;
+    font-weight: 700;
+    text-transform: capitalize; /* Supaya "internship" jadi "Internship" */
+}
+
+/* Warna Badge Sesuai Value JSON */
+.exp-type-badge.project {
+    background: #ecfdf5; 
+    color: #059669;      
+}
+.exp-type-badge.internship {
+    background: #eff6ff; 
+    color: #2563eb;      
+}
+.exp-type-badge.organization {
+    background: #f5f3ff; 
+    color: #7c3aed;      
+}
