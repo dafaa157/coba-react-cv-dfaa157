@@ -20,6 +20,7 @@
       "name": "ReactJS",
       "category": "technical",
       "level": "advanced",
+      "percentage": "100%",
       "is_main": true,
       "years_of_experience": 2,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
@@ -29,6 +30,7 @@
       "name": "Django REST Framework",
       "category": "technical",
       "level": "intermediate",
+      "percentage": "66%",
       "is_main": true,
       "years_of_experience": 1,
       "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
@@ -38,8 +40,9 @@
       "name": "Tailwind CSS",
       "category": "technical",
       "level": "intermediate",
+      "percentage": "66%",
       "is_main": false,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
     }
   ],
 
