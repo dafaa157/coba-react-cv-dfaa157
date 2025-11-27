@@ -27,60 +27,61 @@
     },
     {
       "id": 2,
-      "name": "Django REST Framework",
+      "name": "Python",
       "category": "technical",
       "level": "intermediate",
       "percentage": "66%",
       "is_main": true,
       "years_of_experience": 1,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
     },
     {
       "id": 3,
-      "name": "Tailwind CSS",
+      "name": "Java",
       "category": "technical",
       "level": "intermediate",
       "percentage": "66%",
       "is_main": false,
-      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"
+      "icon_url": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg"
     }
   ],
 
-  "experiences": [
+ "experiences": [
     {
-      "id": 101,
-      "title": "Frontend Developer Intern",
-      "organization": "PT Digital Solusi Nusantara",
-      "experience_type": "internship",
-      "start_date": "2024-07-01",
-      "end_date": "2024-09-30",
-      "is_current": false,
-      "description": "Mengembangkan antarmuka dashboard internal menggunakan React.",
-      "technologies": ["ReactJS", "Tailwind CSS"],
-      "image_url": "https://cdn.example.com/company/digitalsolusi.png"
-    },
-    {
-      "id": 102,
-      "title": "Head of Web Development Division",
-      "organization": "UKM Informatika UMS",
-      "experience_type": "organization",
-      "start_date": "2023-01-01",
-      "end_date": "2023-12-31",
-      "is_current": false,
-      "description": "Mengkoordinasi tim pengembang web untuk kegiatan UKM.",
-      "image_url": "https://cdn.example.com/logo/ukm-informatika.png"
-    },
-    {
-      "id": 103,
-      "title": "Backend Developer (Freelance)",
-      "organization": "Freelance Project",
+      "id": 1,
+      "title": "Personal Portfolio Website",
+      "organization": "Academic Assignment",
       "experience_type": "project",
       "start_date": "2024-10-01",
       "end_date": null,
       "is_current": true,
-      "description": "Membangun API backend UMKM menggunakan DRF dan PostgreSQL.",
-      "technologies": ["Django", "DRF", "PostgreSQL"],
-      "image_url": "https://cdn.example.com/projects/umkm-inventory.png"
+      "description": "Membangun web portofolio responsif menggunakan ReactJS dan CSS.",
+      "technologies": ["ReactJS", "CSS3", "Vite"],
+      "image_url": "https://cdn-icons-png.flaticon.com/512/1005/1005141.png"
+    },
+    {
+      "id": 2,
+      "title": "Web Database Management (CRUD)",
+      "organization": "Academic Assignment",
+      "experience_type": "project",
+      "start_date": "2024-03-01",
+      "end_date": "2024-06-30",
+      "is_current": false,
+      "description": "Merancang sistem informasi sederhana untuk pengelolaan data mahasiswa (Create, Read, Update, Delete) yang terintegrasi dengan database MySQL.",
+      "technologies": ["MySQL"],
+      "image_url": "https://cdn-icons-png.flaticon.com/512/906/906334.png"
+    },
+    {
+      "id": 3,
+      "title": "Linux Custom Distribution",
+      "organization": "Personal Experiment",
+      "experience_type": "project",
+      "start_date": "2024-09-12",
+      "end_date": "2024-12-3",
+      "is_current": false,
+      "description": "Melakukan modifikasi tampilan dan performa Ubuntu OS (Remastering) menggunakan utility tools. Fokus pada penggantian tema desktop dan penghapusan aplikasi bawaan (Debloating) dan kustomisasi aset visual desktop environment.",
+      "technologies": ["Ubuntu", "System Optimization", "UI Customization"],
+      "image_url": "https://cdn-icons-png.flaticon.com/512/6124/6124995.png"
     }
   ],
 
