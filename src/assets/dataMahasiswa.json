@@ -7,7 +7,7 @@
     "nim": "L200230157",
     "prodi": "Teknik Informatika",
     "angkatan": "2023",
-    "photo_link": "./src/assets/img/catto.webp",
+    "photo_link": "/img/catto.webp",
     "headline": "Fullstack Web Developer | React & Django Enthusiast",
     "short_bio": "Mahasiswa UMS dengan minat pada pengembangan web fullstack.",
     "location": "Surakarta, Jawa Tengah",
